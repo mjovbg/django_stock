@@ -34,16 +34,15 @@
       <li class="nav-item">
         <a class="nav-link" href="{%url 'delete_stock' %}">Delete Stock</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{%url 'blog' %}">Blog</a>
-      </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Blog
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">some tool</a>
-          <a class="dropdown-item" href="#">another tool I created</a>
+          <a class="dropdown-item" href="{%url 'blog' %}">Read Blog</a>
+          <a class="dropdown-item" href="{%url 'add_post' %}">Add Post</a>
+
         </div>
       </li>
 
